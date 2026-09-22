@@ -1,0 +1,18 @@
+version: "3.6"
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: shop-postgres
+    environment:
+      POSTGRES_DB: bandersnatch
+      POSTGRES_USER: bandersnatch
+      POSTGRES_PASSWORD: colin1984
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+}
