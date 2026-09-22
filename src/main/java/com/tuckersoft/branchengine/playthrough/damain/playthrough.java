@@ -1,5 +1,7 @@
-package com.tuckersoft.branchengine.playthrough;
+package com.tuckersoft.branchengine.playthrough.damain;
 
+import com.tuckersoft.branchengine.storynode.domain.StoryNode;
+import com.tuckersoft.branchengine.user.application.User;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.Instant;

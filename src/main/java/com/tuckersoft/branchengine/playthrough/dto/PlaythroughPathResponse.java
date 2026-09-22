@@ -1,4 +1,4 @@
-package com.tuckersoft.branchengine.dto;
+package com.tuckersoft.branchengine.playthrough.dto;
 
 import java.util.List;
 

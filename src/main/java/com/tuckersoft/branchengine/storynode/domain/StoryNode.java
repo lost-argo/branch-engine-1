@@ -1,4 +1,4 @@
-package com.tuckersoft.branchengine.storynode;
+package com.tuckersoft.branchengine.storynode.domain;
 
 import jakarta.persistence.*;
 import lombok.*;

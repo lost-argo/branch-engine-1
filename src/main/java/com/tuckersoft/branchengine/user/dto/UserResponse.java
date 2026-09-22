@@ -1,6 +1,4 @@
-package com.tuckersoft.branchengine.dto;
-
-import jakarta.validation.constraints.NotBlank;
+package com.tuckersoft.branchengine.user.dto;
 
 import java.time.Instant;
 

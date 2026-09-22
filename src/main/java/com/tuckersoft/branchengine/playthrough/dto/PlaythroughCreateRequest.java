@@ -1,8 +1,6 @@
-package com.tuckersoft.branchengine.dto;
+package com.tuckersoft.branchengine.playthrough.dto;
 
 import jakarta.validation.constraints.*;
-import java.time.Instant;
-import java.util.List;
 
 public record PlaythroughCreateRequest(
         @NotBlank @Size(min = 2, max = 40) String playerTag,

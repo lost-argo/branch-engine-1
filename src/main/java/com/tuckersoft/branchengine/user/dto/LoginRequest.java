@@ -1,4 +1,4 @@
-package com.tuckersoft.branchengine.dto;
+package com.tuckersoft.branchengine.user.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
